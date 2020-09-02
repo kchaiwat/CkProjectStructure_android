@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PzToolbar">
+        <attr name="pz_item_count" format="integer" />
+        <attr name="pz_show_back_icon" format="boolean" />
+        <attr name="pz_show_right_icon" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

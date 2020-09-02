@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="TextView" />
+
+    <style name="TextView.Title">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Content">
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="TextView.Badge">
+        <item name="android:textSize">@dimen/text_size_badge</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:minHeight">@dimen/badges_size</item>
+        <item name="android:minWidth">@dimen/badges_size</item>
+        <item name="android:background">@drawable/badge_circle</item>
+    </style>
+
+    <style name="MyRippleBackgroundBorderless">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

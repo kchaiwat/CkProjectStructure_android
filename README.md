@@ -1,0 +1,2 @@
+# CkProjectStructure_android
+ 

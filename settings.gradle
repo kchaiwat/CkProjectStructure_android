@@ -1,0 +1,2 @@
+include ':app', ':TheCheeseLibrary', ':CkUtilityLibrary'
+rootProject.name = "CkProjectStructure_android"
